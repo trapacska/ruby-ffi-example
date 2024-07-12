@@ -6,6 +6,7 @@ project_type: other
 include:
   - path: bitrise.pipelines.yml
     repository: nope
+    branch: main
 
 workflows:
   primary:
