@@ -5,4 +5,4 @@ project_type: other
 
 app:
   envs:
-  - TOMI: yes
+  - TOMI: no
