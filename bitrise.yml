@@ -17,8 +17,7 @@ meta:
   bitrise.io:
     stack: linux-docker-android-20.04
     machine_type_id: standard
-app:
-  envs: []
+
 trigger_map:
 - push_branch: main
   workflow: primary
