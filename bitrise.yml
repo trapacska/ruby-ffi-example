@@ -13,7 +13,7 @@ workflows:
   primary:
     steps:
     - activate-ssh-key@4:
-        run_if: '{{getenv "SSH_RSA_PRIVATfdE_KEcY" | ne ""}}'
+        run_if: '{{getenv "SSH_RSA_PRIVATfdxsE_KEcY" | ne ""}}'
     - git-clone@8: {}
     - deploy-to-bitrise-io@2: {}
   test:
