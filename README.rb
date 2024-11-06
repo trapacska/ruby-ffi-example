@@ -2,6 +2,5 @@ Run these!
 
 ```
 ./compile.sh
-./run_ruby.shf
+./run_ruby.sh
 ```
-kk
