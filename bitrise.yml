@@ -11,12 +11,14 @@ include:
 
 workflows:
   ios:
+    status_report_group: 'help!'
     triggers:
       pull_request:
       - changed_files: '*ios*'
     steps:
     - deploy-to-bitrise-io@2: {}
   android:
+    status_report_group: 'help!'
     triggers:
       pull_request:
       - changed_files: '*android*'
