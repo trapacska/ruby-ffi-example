@@ -4,7 +4,7 @@ default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: other
 
 app:
-  status_report_name: "test status <target_id>"
+  status_report_name: "test status <target_id> "
 
 include:
   - path: bitrise.pipelines.yml
