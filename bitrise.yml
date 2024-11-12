@@ -13,13 +13,13 @@ workflows:
   ios:
     triggers:
       pull_request:
-      - changed_files: 'ios/*'
+      - changed_files: '*ios*'
     steps:
     - deploy-to-bitrise-io@2: {}
   android:
     triggers:
       pull_request:
-      - changed_files: 'android/*'
+      - changed_files: '*android*'
     steps:
     - deploy-to-bitrise-io@2: {}
 meta:
