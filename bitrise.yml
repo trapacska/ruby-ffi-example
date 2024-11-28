@@ -1,31 +1,27 @@
 ---
-format_version: '13'
-default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
-project_type: other
-
 app:
-  status_report_name: "test status <target_id> "
-
-include:
-  - path: bitrise.pipelines.yml
-
-workflows:
-  ios:
-    status_report_group: 'help!'
-    triggers:
-      pull_request:
-      - changed_files: '*ios*'
-    steps:
-    - deploy-to-bitrise-io@2: {}
-  android:
-    status_report_group: 'help!'
-    triggers:
-      pull_request:
-      - changed_files: '*android*'
-    steps:
-    - deploy-to-bitrise-io@2: {}
+  envs:
+  - TOMI: nopppeegggie444
+  status_report_name: 'test status <target_id> '
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+format_version: '13'
 meta:
   bitrise.io:
-    stack: linux-docker-android-20.04
     machine_type_id: standard
-
+    stack: linux-docker-android-20.04
+project_type: other
+workflows:
+  android:
+    status_report_group: help!
+    steps:
+    - deploy-to-bitrise-io@2: {}
+    triggers:
+      pull_request:
+      - changed_files: "*android*"
+  ios:
+    status_report_group: help!
+    steps:
+    - deploy-to-bitrise-io@2: {}
+    triggers:
+      pull_request:
+      - changed_files: "*ios*"
