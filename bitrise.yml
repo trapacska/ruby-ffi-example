@@ -2,30 +2,59 @@
 format_version: '13'
 default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: other
-
 app:
-  status_report_name: "test status <target_id> "
-
-include:
-  - path: bitrise.pipelines.yml
-
+  status_report_name: "<project_title>: <target_id> - <event_type>"
+pipelines:
+  pipeline:
+    triggers:
+      pull_request:
+      - target_branch: "*"
+      push:
+      - branch: "*"
+    stages:
+    - stage1: {}
+stages:
+  stage1:
+    workflows:
+    - env: {}
 workflows:
-  ios:
-    status_report_group: 'help!'
+  primary:
+    steps:
+    - script@1.2.1: {}
+    triggers:
+      pull_request: []
+  security:
+    steps:
+    - script@1.2.1: {}
+    triggers:
+      pull_request: []
+  env:
+    steps:
+    - script@1.2.1:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+
+            echo "BITRISE_GIT_PULL_REQUEST_LABELS: $BITRISE_GIT_PULL_REQUEST_LABELS"
+            echo "BITRISE_GIT_PULL_REQUEST_COMMENT_ID: $BITRISE_GIT_PULL_REQUEST_COMMENT_ID"
+            echo "BITRISE_GIT_PULL_REQUEST_COMMENT: $BITRISE_GIT_PULL_REQUEST_COMMENT"
+            echo ""
+            echo "BITRISE_GIT_CHANGED_FILES: $BITRISE_GIT_CHANGED_FILES"
+            echo "BITRISE_GIT_COMMIT_MESSAGES: $BITRISE_GIT_COMMIT_MESSAGES"
+            echo "BITRISE_GIT_MESSAGE: $BITRISE_GIT_MESSAGE"
+            echo ""
+            echo "BITRISE_TRIGGER_BY: $BITRISE_TRIGGER_BY"
+            echo "BITRISE_TRIGGER_METHOD: $BITRISE_TRIGGER_METHOD"
     triggers:
       pull_request:
-      - changed_files: '*ios*'
-    steps:
-    - deploy-to-bitrise-io@2: {}
-  android:
-    status_report_group: 'help!'
-    triggers:
-      pull_request:
-      - changed_files: '*android*'
-    steps:
-    - deploy-to-bitrise-io@2: {}
+      - label: "*"
+        comment: "*"
+        changed_files: "*"
+        target_branch: "*"
+      - comment: "*"
+      push:
+      - branch: "*"
 meta:
   bitrise.io:
     stack: linux-docker-android-20.04
     machine_type_id: standard
-
