@@ -8,6 +8,23 @@ app:
 
 include:
   - path: bitrise.pipelines.yml
+  - path: bitrise.pipelines copy.yml
+  - path: bitrise.pipelines copy 2.yml
+  - path: bitrise.pipelines copy 3.yml
+  - path: bitrise.pipelines copy 4.yml
+  - path: bitrise.pipelines copy 5.yml
+  - path: bitrise.pipelines copy 6.yml
+  - path: bitrise.pipelines copy 7.yml
+  - path: bitrise.pipelines copy 8.yml
+  - path: bitrise.pipelines copy 9.yml
+  - path: bitrise.pipelines copy 10.yml
+  - path: bitrise.pipelines copy 11.yml
+  - path: bitrise.pipelines copy 12.yml
+  - path: bitrise.pipelines copy 13.yml
+  - path: bitrise.pipelines copy 14.yml
+  - path: bitrise.pipelines copy 15.yml
+  - path: bitrise.pipelines copy 16.yml
+  - path: bitrise.pipelines copy 17.yml
 
 workflows:
   ios:
