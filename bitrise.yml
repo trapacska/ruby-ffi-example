@@ -3,9 +3,6 @@ format_version: '13'
 default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: other
 
-app:
-  status_report_name: "test status"
-
 include:
   - path: level_01/inc_001.yml
   - path: level_01/inc_002.yml
@@ -109,11 +106,6 @@ include:
   - path: level_01/inc_100.yml
 
 workflows:
-  ios:
+  root:
     steps:
     - deploy-to-bitrise-io@2: {}
-
-meta:
-  bitrise.io:
-    stack: linux-docker-android-22.04
-    machine_type_id: standard

@@ -1,7 +1,6 @@
-# Auto-generated test file: level_18/inc_078.yml
 workflows:
   wf_level_18_78:
     steps: []
 
 include:
-  - path: ./level_19/inc_078.yml
+  - path: level_19/inc_078.yml

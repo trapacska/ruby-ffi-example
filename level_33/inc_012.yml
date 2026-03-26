@@ -1,7 +1,6 @@
-# Auto-generated test file: level_33/inc_012.yml
 workflows:
   wf_level_33_12:
     steps: []
 
 include:
-  - path: ./level_34/inc_012.yml
+  - path: level_34/inc_012.yml
