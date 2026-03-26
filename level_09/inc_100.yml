@@ -1,6 +1,0 @@
-workflows:
-  wf_level_09_100:
-    steps: []
-
-include:
-  - path: level_10/inc_100.yml

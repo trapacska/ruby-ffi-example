@@ -1,6 +1,0 @@
-workflows:
-  wf_level_27_47:
-    steps: []
-
-include:
-  - path: level_28/inc_047.yml

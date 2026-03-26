@@ -1,6 +1,0 @@
-workflows:
-  wf_level_34_60:
-    steps: []
-
-include:
-  - path: level_35/inc_060.yml

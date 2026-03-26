@@ -1,6 +1,0 @@
-workflows:
-  wf_level_17_96:
-    steps: []
-
-include:
-  - path: level_18/inc_096.yml
