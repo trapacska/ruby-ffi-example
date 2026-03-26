@@ -1,0 +1,7 @@
+# Auto-generated test file: level_29/inc_020.yml
+workflows:
+  wf_level_29_20:
+    steps: []
+
+include:
+  - path: ./level_30/inc_020.yml

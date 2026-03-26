@@ -4,45 +4,116 @@ default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: other
 
 app:
-  status_report_name: "test status <target_id>   "
+  status_report_name: "test status"
 
 include:
-  - path: bitrise.pipelines.yml
-  - path: bitrise.pipelines copy.yml
-  - path: bitrise.pipelines copy 2.yml
-  - path: bitrise.pipelines copy 3.yml
-  - path: bitrise.pipelines copy 4.yml
-  - path: bitrise.pipelines copy 5.yml
-  - path: bitrise.pipelines copy 6.yml
-  - path: bitrise.pipelines copy 7.yml
-  - path: bitrise.pipelines copy 8.yml
-  - path: bitrise.pipelines copy 9.yml
-  - path: bitrise.pipelines copy 10.yml
-  - path: bitrise.pipelines copy 11.yml
-  - path: bitrise.pipelines copy 12.yml
-  - path: bitrise.pipelines copy 13.yml
-  - path: bitrise.pipelines copy 14.yml
-  - path: bitrise.pipelines copy 15.yml
-  - path: bitrise.pipelines copy 16.yml
-  - path: bitrise.pipelines copy 17.yml
+  - path: level_01/inc_001.yml
+  - path: level_01/inc_002.yml
+  - path: level_01/inc_003.yml
+  - path: level_01/inc_004.yml
+  - path: level_01/inc_005.yml
+  - path: level_01/inc_006.yml
+  - path: level_01/inc_007.yml
+  - path: level_01/inc_008.yml
+  - path: level_01/inc_009.yml
+  - path: level_01/inc_010.yml
+  - path: level_01/inc_011.yml
+  - path: level_01/inc_012.yml
+  - path: level_01/inc_013.yml
+  - path: level_01/inc_014.yml
+  - path: level_01/inc_015.yml
+  - path: level_01/inc_016.yml
+  - path: level_01/inc_017.yml
+  - path: level_01/inc_018.yml
+  - path: level_01/inc_019.yml
+  - path: level_01/inc_020.yml
+  - path: level_01/inc_021.yml
+  - path: level_01/inc_022.yml
+  - path: level_01/inc_023.yml
+  - path: level_01/inc_024.yml
+  - path: level_01/inc_025.yml
+  - path: level_01/inc_026.yml
+  - path: level_01/inc_027.yml
+  - path: level_01/inc_028.yml
+  - path: level_01/inc_029.yml
+  - path: level_01/inc_030.yml
+  - path: level_01/inc_031.yml
+  - path: level_01/inc_032.yml
+  - path: level_01/inc_033.yml
+  - path: level_01/inc_034.yml
+  - path: level_01/inc_035.yml
+  - path: level_01/inc_036.yml
+  - path: level_01/inc_037.yml
+  - path: level_01/inc_038.yml
+  - path: level_01/inc_039.yml
+  - path: level_01/inc_040.yml
+  - path: level_01/inc_041.yml
+  - path: level_01/inc_042.yml
+  - path: level_01/inc_043.yml
+  - path: level_01/inc_044.yml
+  - path: level_01/inc_045.yml
+  - path: level_01/inc_046.yml
+  - path: level_01/inc_047.yml
+  - path: level_01/inc_048.yml
+  - path: level_01/inc_049.yml
+  - path: level_01/inc_050.yml
+  - path: level_01/inc_051.yml
+  - path: level_01/inc_052.yml
+  - path: level_01/inc_053.yml
+  - path: level_01/inc_054.yml
+  - path: level_01/inc_055.yml
+  - path: level_01/inc_056.yml
+  - path: level_01/inc_057.yml
+  - path: level_01/inc_058.yml
+  - path: level_01/inc_059.yml
+  - path: level_01/inc_060.yml
+  - path: level_01/inc_061.yml
+  - path: level_01/inc_062.yml
+  - path: level_01/inc_063.yml
+  - path: level_01/inc_064.yml
+  - path: level_01/inc_065.yml
+  - path: level_01/inc_066.yml
+  - path: level_01/inc_067.yml
+  - path: level_01/inc_068.yml
+  - path: level_01/inc_069.yml
+  - path: level_01/inc_070.yml
+  - path: level_01/inc_071.yml
+  - path: level_01/inc_072.yml
+  - path: level_01/inc_073.yml
+  - path: level_01/inc_074.yml
+  - path: level_01/inc_075.yml
+  - path: level_01/inc_076.yml
+  - path: level_01/inc_077.yml
+  - path: level_01/inc_078.yml
+  - path: level_01/inc_079.yml
+  - path: level_01/inc_080.yml
+  - path: level_01/inc_081.yml
+  - path: level_01/inc_082.yml
+  - path: level_01/inc_083.yml
+  - path: level_01/inc_084.yml
+  - path: level_01/inc_085.yml
+  - path: level_01/inc_086.yml
+  - path: level_01/inc_087.yml
+  - path: level_01/inc_088.yml
+  - path: level_01/inc_089.yml
+  - path: level_01/inc_090.yml
+  - path: level_01/inc_091.yml
+  - path: level_01/inc_092.yml
+  - path: level_01/inc_093.yml
+  - path: level_01/inc_094.yml
+  - path: level_01/inc_095.yml
+  - path: level_01/inc_096.yml
+  - path: level_01/inc_097.yml
+  - path: level_01/inc_098.yml
+  - path: level_01/inc_099.yml
+  - path: level_01/inc_100.yml
 
 workflows:
   ios:
-    status_report_group: 'help!'
-    triggers:
-      pull_request:
-      - changed_files: '*ios*'
     steps:
     - deploy-to-bitrise-io@2: {}
-  android:
-    status_report_group: 'help!'
-    triggers:
-      pull_request:
-      - changed_files: '*android*'
-    steps:
-    - deploy-to-bitrise-io@2: {}
+
 meta:
   bitrise.io:
     stack: linux-docker-android-22.04
     machine_type_id: standard
-
