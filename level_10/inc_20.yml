@@ -1,3 +1,3 @@
 workflows:
-  wf_level_10_20:
+  wf_level_10_leaf_20:
     steps: []

@@ -1,5 +1,5 @@
 workflows:
-  wf_level_07_chain:
+  wf_level_07_chain_1:
     steps: []
 
 include:
@@ -23,4 +23,59 @@ include:
   - path: level_08/inc_18.yml
   - path: level_08/inc_19.yml
   - path: level_08/inc_20.yml
+  - path: level_08/inc_21.yml
+  - path: level_08/inc_22.yml
+  - path: level_08/inc_23.yml
+  - path: level_08/inc_24.yml
+  - path: level_08/inc_25.yml
+  - path: level_08/inc_26.yml
+  - path: level_08/inc_27.yml
+  - path: level_08/inc_28.yml
+  - path: level_08/inc_29.yml
+  - path: level_08/inc_30.yml
+  - path: level_08/inc_31.yml
+  - path: level_08/inc_32.yml
+  - path: level_08/inc_33.yml
+  - path: level_08/inc_34.yml
+  - path: level_08/inc_35.yml
+  - path: level_08/inc_36.yml
+  - path: level_08/inc_37.yml
+  - path: level_08/inc_38.yml
+  - path: level_08/inc_39.yml
+  - path: level_08/inc_40.yml
+  - path: level_08/inc_41.yml
+  - path: level_08/inc_42.yml
+  - path: level_08/inc_43.yml
+  - path: level_08/inc_44.yml
+  - path: level_08/inc_45.yml
+  - path: level_08/inc_46.yml
+  - path: level_08/inc_47.yml
+  - path: level_08/inc_48.yml
+  - path: level_08/inc_49.yml
+  - path: level_08/inc_50.yml
+  - path: level_08/inc_51.yml
+  - path: level_08/inc_52.yml
+  - path: level_08/inc_53.yml
+  - path: level_08/inc_54.yml
+  - path: level_08/inc_55.yml
+  - path: level_08/inc_56.yml
+  - path: level_08/inc_57.yml
+  - path: level_08/inc_58.yml
+  - path: level_08/inc_59.yml
+  - path: level_08/inc_60.yml
+  - path: level_08/inc_61.yml
+  - path: level_08/inc_62.yml
+  - path: level_08/inc_63.yml
+  - path: level_08/inc_64.yml
+  - path: level_08/inc_65.yml
+  - path: level_08/inc_66.yml
+  - path: level_08/inc_67.yml
+  - path: level_08/inc_68.yml
+  - path: level_08/inc_69.yml
+  - path: level_08/inc_70.yml
+  - path: level_08/inc_71.yml
+  - path: level_08/inc_72.yml
+  - path: level_08/inc_73.yml
+  - path: level_08/inc_74.yml
+  - path: level_08/inc_75.yml
 
