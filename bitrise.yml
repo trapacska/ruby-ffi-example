@@ -4,13 +4,26 @@ default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: other
 
 include:
-  - path: level_01/inc_1.yml
-  - path: level_01/inc_2.yml
-  - path: level_01/inc_3.yml
-  - path: level_01/inc_4.yml
-  - path: level_01/inc_5.yml
-  - path: level_01/inc_6.yml
-  - path: level_01/inc_7.yml
+  - path: level_01/inc_01.yml
+  - path: level_01/inc_02.yml
+  - path: level_01/inc_03.yml
+  - path: level_01/inc_04.yml
+  - path: level_01/inc_05.yml
+  - path: level_01/inc_06.yml
+  - path: level_01/inc_07.yml
+  - path: level_01/inc_08.yml
+  - path: level_01/inc_09.yml
+  - path: level_01/inc_10.yml
+  - path: level_01/inc_11.yml
+  - path: level_01/inc_12.yml
+  - path: level_01/inc_13.yml
+  - path: level_01/inc_14.yml
+  - path: level_01/inc_15.yml
+  - path: level_01/inc_16.yml
+  - path: level_01/inc_17.yml
+  - path: level_01/inc_18.yml
+  - path: level_01/inc_19.yml
+  - path: level_01/inc_20.yml
 
 workflows:
   root:

@@ -1,0 +1,26 @@
+workflows:
+  wf_level_06_chain:
+    steps: []
+
+include:
+  - path: level_07/inc_01.yml
+  - path: level_07/inc_02.yml
+  - path: level_07/inc_03.yml
+  - path: level_07/inc_04.yml
+  - path: level_07/inc_05.yml
+  - path: level_07/inc_06.yml
+  - path: level_07/inc_07.yml
+  - path: level_07/inc_08.yml
+  - path: level_07/inc_09.yml
+  - path: level_07/inc_10.yml
+  - path: level_07/inc_11.yml
+  - path: level_07/inc_12.yml
+  - path: level_07/inc_13.yml
+  - path: level_07/inc_14.yml
+  - path: level_07/inc_15.yml
+  - path: level_07/inc_16.yml
+  - path: level_07/inc_17.yml
+  - path: level_07/inc_18.yml
+  - path: level_07/inc_19.yml
+  - path: level_07/inc_20.yml
+
