@@ -2,85 +2,13 @@
 format_version: '13'
 default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: other
-
-# include:
-#   - path: level_01/inc_01.yml
-#   - path: level_01/inc_02.yml
-#   - path: level_01/inc_03.yml
-#   - path: level_01/inc_04.yml
-#   - path: level_01/inc_05.yml
-#   - path: level_01/inc_06.yml
-#   - path: level_01/inc_07.yml
-#   - path: level_01/inc_08.yml
-#   - path: level_01/inc_09.yml
-#   - path: level_01/inc_10.yml
-#   - path: level_01/inc_11.yml
-  # - path: level_01/inc_12.yml
-  # - path: level_01/inc_13.yml
-  # - path: level_01/inc_14.yml
-  # - path: level_01/inc_15.yml
-  # - path: level_01/inc_16.yml
-  # - path: level_01/inc_17.yml
-  # - path: level_01/inc_18.yml
-  # - path: level_01/inc_19.yml
-  # - path: level_01/inc_20.yml
-  # - path: level_01/inc_21.yml
-  # - path: level_01/inc_22.yml
-  # - path: level_01/inc_23.yml
-  # - path: level_01/inc_24.yml
-  # - path: level_01/inc_25.yml
-  # - path: level_01/inc_26.yml
-  # - path: level_01/inc_27.yml
-  # - path: level_01/inc_28.yml
-  # - path: level_01/inc_29.yml
-  # - path: level_01/inc_30.yml
-  # - path: level_01/inc_31.yml
-  # - path: level_01/inc_32.yml
-  # - path: level_01/inc_33.yml
-  # - path: level_01/inc_34.yml
-  # - path: level_01/inc_35.yml
-  # - path: level_01/inc_36.yml
-  # - path: level_01/inc_37.yml
-  # - path: level_01/inc_38.yml
-  # - path: level_01/inc_39.yml
-  # - path: level_01/inc_40.yml
-  # - path: level_01/inc_41.yml
-  # - path: level_01/inc_42.yml
-  # - path: level_01/inc_43.yml
-  # - path: level_01/inc_44.yml
-  # - path: level_01/inc_45.yml
-  # - path: level_01/inc_46.yml
-  # - path: level_01/inc_47.yml
-  # - path: level_01/inc_48.yml
-  # - path: level_01/inc_49.yml
-  # - path: level_01/inc_50.yml
-  # - path: level_01/inc_51.yml
-  # - path: level_01/inc_52.yml
-  # - path: level_01/inc_53.yml
-  # - path: level_01/inc_54.yml
-  # - path: level_01/inc_55.yml
-  # - path: level_01/inc_56.yml
-  # - path: level_01/inc_57.yml
-  # - path: level_01/inc_58.yml
-  # - path: level_01/inc_59.yml
-  # - path: level_01/inc_60.yml
-  # - path: level_01/inc_61.yml
-  # - path: level_01/inc_62.yml
-  # - path: level_01/inc_63.yml
-  # - path: level_01/inc_64.yml
-  # - path: level_01/inc_65.yml
-  # - path: level_01/inc_66.yml
-  # - path: level_01/inc_67.yml
-  # - path: level_01/inc_68.yml
-  # - path: level_01/inc_69.yml
-  # - path: level_01/inc_70.yml
-  # - path: level_01/inc_71.yml
-  # - path: level_01/inc_72.yml
-  # - path: level_01/inc_73.yml
-  # - path: level_01/inc_74.yml
-  # - path: level_01/inc_75.yml
-
 workflows:
   root:
     steps:
     - deploy-to-bitrise-io@2: {}
+  test:
+    steps:
+    - script@1: {}
+    triggers:
+      pull_request:
+      - target_branch: "*"
