@@ -1,0 +1,12 @@
+workflows:
+  workflow_14:
+    steps:
+    - script@1:
+        inputs:
+        - content: |
+            echo "Running workflow 14"
+            echo "Step 1 of workflow 14"
+            echo "Step 2 of workflow 14"
+    - deploy-to-bitrise-io@2:
+        inputs:
+        - deploy_path: /tmp/output_14

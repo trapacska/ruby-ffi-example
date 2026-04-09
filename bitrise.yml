@@ -5,6 +5,39 @@ project_type: other
 include:
   - path: modules/workflows.yml
   - path: modules/meta.yml
+  - path: modules/module_01.yml
+  - path: modules/module_02.yml
+  - path: modules/module_03.yml
+  - path: modules/module_04.yml
+  - path: modules/module_05.yml
+  - path: modules/module_06.yml
+  - path: modules/module_07.yml
+  - path: modules/module_08.yml
+  - path: modules/module_09.yml
+  - path: modules/module_10.yml
+  - path: modules/module_11.yml
+  - path: modules/module_12.yml
+  - path: modules/module_13.yml
+  - path: modules/module_14.yml
+  - path: modules/module_15.yml
+  - path: modules/module_16.yml
+  - path: modules/module_17.yml
+  - path: modules/module_18.yml
+  - path: modules/module_19.yml
+  - path: modules/module_20.yml
+  - path: modules/module_21.yml
+  - path: modules/module_22.yml
+  - path: modules/module_23.yml
+  - path: modules/module_24.yml
+  - path: modules/module_25.yml
+  - path: modules/module_26.yml
+  - path: modules/module_27.yml
+  - path: modules/module_28.yml
+  - path: modules/module_29.yml
+  - path: modules/module_30.yml
+  - path: modules/module_31.yml
+  - path: modules/module_32.yml
+  - path: modules/module_33.yml
 workflows:
   root:
     steps:
