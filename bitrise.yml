@@ -37,7 +37,6 @@ include:
   - path: modules/module_30.yml
   - path: modules/module_31.yml
   - path: modules/module_32.yml
-  - path: modules/module_33.yml
 workflows:
   root:
     steps:
