@@ -1,0 +1,9 @@
+include:
+  - path: stress/dir_15/leaf_001.yml
+  - path: stress/dir_15/leaf_002.yml
+  - path: stress/dir_15/leaf_003.yml
+  - path: stress/dir_16/chain.yml
+workflows:
+  chain_15:
+    steps:
+    - script@1: {}
