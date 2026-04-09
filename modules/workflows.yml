@@ -1,0 +1,12 @@
+workflows:
+  test:
+    steps:
+    - script@1: {}
+    triggers:
+      pull_request:
+      - target_branch: "*"
+  lint:
+    steps:
+    - script@1:
+        inputs:
+        - content: echo "linting..."
