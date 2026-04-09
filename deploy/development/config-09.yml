@@ -1,0 +1,4 @@
+environment: development
+service: svc-9
+replicas: 2
+image: registry.io/svc-9:development-72a8bf97

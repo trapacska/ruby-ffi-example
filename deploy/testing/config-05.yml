@@ -1,0 +1,4 @@
+environment: testing
+service: svc-5
+replicas: 10
+image: registry.io/svc-5:testing-148d859e

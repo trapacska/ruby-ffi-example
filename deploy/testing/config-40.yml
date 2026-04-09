@@ -1,0 +1,4 @@
+environment: testing
+service: svc-40
+replicas: 2
+image: registry.io/svc-40:testing-e3720801

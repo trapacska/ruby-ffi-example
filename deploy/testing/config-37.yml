@@ -1,0 +1,4 @@
+environment: testing
+service: svc-37
+replicas: 8
+image: registry.io/svc-37:testing-ae692d2f

@@ -1,0 +1,12 @@
+workflows:
+  wf_L35_M75:
+    steps:
+    - script@1:
+        inputs:
+        - content: |
+            echo "Level 35 Module 75"
+            echo "Processing step 1"
+            echo "Processing step 2"
+    - deploy-to-bitrise-io@2:
+        inputs:
+        - deploy_path: /tmp/L35_M75

@@ -1,0 +1,4 @@
+environment: testing
+service: svc-22
+replicas: 6
+image: registry.io/svc-22:testing-59b83d7f

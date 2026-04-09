@@ -1,0 +1,4 @@
+environment: development
+service: svc-16
+replicas: 10
+image: registry.io/svc-16:development-64201d78

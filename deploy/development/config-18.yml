@@ -1,0 +1,4 @@
+environment: development
+service: svc-18
+replicas: 6
+image: registry.io/svc-18:development-973e4b02

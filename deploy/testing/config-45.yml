@@ -1,0 +1,4 @@
+environment: testing
+service: svc-45
+replicas: 7
+image: registry.io/svc-45:testing-3a27d2a9

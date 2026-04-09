@@ -1,0 +1,4 @@
+environment: development
+service: svc-41
+replicas: 10
+image: registry.io/svc-41:development-0a0b3f2d

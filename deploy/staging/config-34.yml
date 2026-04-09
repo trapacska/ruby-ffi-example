@@ -1,0 +1,4 @@
+environment: staging
+service: svc-34
+replicas: 6
+image: registry.io/svc-34:staging-fbab101c

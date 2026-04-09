@@ -1,0 +1,4 @@
+environment: staging
+service: svc-9
+replicas: 9
+image: registry.io/svc-9:staging-4e820b45

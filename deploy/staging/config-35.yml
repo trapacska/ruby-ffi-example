@@ -1,0 +1,4 @@
+environment: staging
+service: svc-35
+replicas: 3
+image: registry.io/svc-35:staging-017973e1

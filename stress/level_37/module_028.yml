@@ -1,0 +1,12 @@
+workflows:
+  wf_L37_M28:
+    steps:
+    - script@1:
+        inputs:
+        - content: |
+            echo "Level 37 Module 28"
+            echo "Processing step 1"
+            echo "Processing step 2"
+    - deploy-to-bitrise-io@2:
+        inputs:
+        - deploy_path: /tmp/L37_M28

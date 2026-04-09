@@ -1,0 +1,4 @@
+environment: staging
+service: svc-17
+replicas: 6
+image: registry.io/svc-17:staging-e40af1ed

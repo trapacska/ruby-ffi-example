@@ -1,0 +1,4 @@
+environment: development
+service: svc-42
+replicas: 5
+image: registry.io/svc-42:development-c695ef22

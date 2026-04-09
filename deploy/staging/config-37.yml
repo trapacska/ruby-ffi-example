@@ -1,0 +1,4 @@
+environment: staging
+service: svc-37
+replicas: 9
+image: registry.io/svc-37:staging-da8c80b1

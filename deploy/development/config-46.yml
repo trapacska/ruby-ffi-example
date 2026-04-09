@@ -1,0 +1,4 @@
+environment: development
+service: svc-46
+replicas: 6
+image: registry.io/svc-46:development-962e311d

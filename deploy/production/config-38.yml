@@ -1,0 +1,4 @@
+environment: production
+service: svc-38
+replicas: 2
+image: registry.io/svc-38:production-1cd2379f

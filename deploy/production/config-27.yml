@@ -1,0 +1,4 @@
+environment: production
+service: svc-27
+replicas: 1
+image: registry.io/svc-27:production-835e4e7f

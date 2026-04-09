@@ -1,0 +1,4 @@
+environment: production
+service: svc-34
+replicas: 10
+image: registry.io/svc-34:production-6ccd47b3

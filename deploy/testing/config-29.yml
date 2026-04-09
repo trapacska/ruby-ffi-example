@@ -1,0 +1,4 @@
+environment: testing
+service: svc-29
+replicas: 3
+image: registry.io/svc-29:testing-8dd2155f

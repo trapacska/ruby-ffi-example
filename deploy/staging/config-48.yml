@@ -1,0 +1,4 @@
+environment: staging
+service: svc-48
+replicas: 2
+image: registry.io/svc-48:staging-2fd72939

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-7-15
+data:
+  config.json: |
+    {'"service": "svc-7", "version": "15.0.0", "debug": false}

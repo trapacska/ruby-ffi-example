@@ -1,6 +1,0 @@
-workflows:
-  wf_26_45:
-    steps:
-    - script@1:
-        inputs:
-        - content: echo "stress/dir_26/leaf_045.yml"

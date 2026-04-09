@@ -1,0 +1,4 @@
+environment: testing
+service: svc-11
+replicas: 10
+image: registry.io/svc-11:testing-ed370a80

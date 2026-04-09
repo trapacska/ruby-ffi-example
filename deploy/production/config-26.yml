@@ -1,0 +1,4 @@
+environment: production
+service: svc-26
+replicas: 6
+image: registry.io/svc-26:production-f7422852

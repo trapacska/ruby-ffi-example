@@ -1,0 +1,4 @@
+environment: staging
+service: svc-50
+replicas: 6
+image: registry.io/svc-50:staging-293a4d96

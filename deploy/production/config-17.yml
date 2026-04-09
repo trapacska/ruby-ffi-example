@@ -1,0 +1,4 @@
+environment: production
+service: svc-17
+replicas: 5
+image: registry.io/svc-17:production-d86c9503

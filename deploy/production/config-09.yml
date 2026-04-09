@@ -1,0 +1,4 @@
+environment: production
+service: svc-9
+replicas: 10
+image: registry.io/svc-9:production-e04ceca9

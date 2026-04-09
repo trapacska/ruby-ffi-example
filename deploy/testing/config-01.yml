@@ -1,0 +1,4 @@
+environment: testing
+service: svc-1
+replicas: 4
+image: registry.io/svc-1:testing-b495c604

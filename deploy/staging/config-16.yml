@@ -1,0 +1,4 @@
+environment: staging
+service: svc-16
+replicas: 7
+image: registry.io/svc-16:staging-caa0736e

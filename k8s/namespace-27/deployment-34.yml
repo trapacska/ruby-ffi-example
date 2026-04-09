@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: svc-27-34
+  namespace: ns-27
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+      - name: app
+        image: registry.io/app-27-34:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: ENV
+          value: production
+        resources:
+          limits:
+            memory: 512Mi
+            cpu: 500m

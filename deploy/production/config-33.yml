@@ -1,0 +1,4 @@
+environment: production
+service: svc-33
+replicas: 8
+image: registry.io/svc-33:production-5d145b56

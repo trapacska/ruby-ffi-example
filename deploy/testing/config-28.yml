@@ -1,0 +1,4 @@
+environment: testing
+service: svc-28
+replicas: 9
+image: registry.io/svc-28:testing-77ed53f8

@@ -1,0 +1,4 @@
+environment: production
+service: svc-16
+replicas: 8
+image: registry.io/svc-16:production-27d2652c

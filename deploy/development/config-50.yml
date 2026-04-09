@@ -1,0 +1,4 @@
+environment: development
+service: svc-50
+replicas: 5
+image: registry.io/svc-50:development-61b205e6

@@ -1,0 +1,4 @@
+environment: production
+service: svc-18
+replicas: 7
+image: registry.io/svc-18:production-c7f6e42f

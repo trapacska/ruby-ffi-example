@@ -1,0 +1,4 @@
+environment: production
+service: svc-7
+replicas: 9
+image: registry.io/svc-7:production-c7524019

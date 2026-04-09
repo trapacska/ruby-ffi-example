@@ -1,0 +1,4 @@
+environment: development
+service: svc-8
+replicas: 6
+image: registry.io/svc-8:development-3480aa7e

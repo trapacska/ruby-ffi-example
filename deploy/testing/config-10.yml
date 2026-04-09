@@ -1,0 +1,4 @@
+environment: testing
+service: svc-10
+replicas: 4
+image: registry.io/svc-10:testing-7e7f1850

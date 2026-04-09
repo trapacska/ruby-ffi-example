@@ -1,0 +1,4 @@
+environment: development
+service: svc-11
+replicas: 5
+image: registry.io/svc-11:development-e8951b3b

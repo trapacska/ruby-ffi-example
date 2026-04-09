@@ -1,0 +1,4 @@
+environment: testing
+service: svc-24
+replicas: 3
+image: registry.io/svc-24:testing-d405fbbe

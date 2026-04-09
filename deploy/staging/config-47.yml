@@ -1,0 +1,4 @@
+environment: staging
+service: svc-47
+replicas: 6
+image: registry.io/svc-47:staging-e2ce99d4

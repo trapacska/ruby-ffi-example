@@ -1,0 +1,4 @@
+environment: development
+service: svc-13
+replicas: 7
+image: registry.io/svc-13:development-afe532c3

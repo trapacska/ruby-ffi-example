@@ -1,0 +1,4 @@
+environment: production
+service: svc-4
+replicas: 4
+image: registry.io/svc-4:production-6613d303

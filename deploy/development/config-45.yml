@@ -1,0 +1,4 @@
+environment: development
+service: svc-45
+replicas: 2
+image: registry.io/svc-45:development-20c9b927

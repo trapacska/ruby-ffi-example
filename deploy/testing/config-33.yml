@@ -1,0 +1,4 @@
+environment: testing
+service: svc-33
+replicas: 4
+image: registry.io/svc-33:testing-f34bb149

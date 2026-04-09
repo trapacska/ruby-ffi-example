@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: svc-33-36
+  namespace: ns-33
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+      - name: app
+        image: registry.io/app-33-36:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: ENV
+          value: production
+        resources:
+          limits:
+            memory: 512Mi
+            cpu: 500m

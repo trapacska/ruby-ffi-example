@@ -1,0 +1,4 @@
+environment: staging
+service: svc-21
+replicas: 8
+image: registry.io/svc-21:staging-6d806be4

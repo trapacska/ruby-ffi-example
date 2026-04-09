@@ -1,0 +1,4 @@
+environment: development
+service: svc-22
+replicas: 8
+image: registry.io/svc-22:development-f287117e

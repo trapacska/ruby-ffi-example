@@ -1,0 +1,4 @@
+environment: staging
+service: svc-45
+replicas: 5
+image: registry.io/svc-45:staging-d7d83715

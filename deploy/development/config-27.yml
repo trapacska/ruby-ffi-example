@@ -1,0 +1,4 @@
+environment: development
+service: svc-27
+replicas: 1
+image: registry.io/svc-27:development-2f31f4d4

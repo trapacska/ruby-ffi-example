@@ -1,0 +1,4 @@
+environment: staging
+service: svc-18
+replicas: 7
+image: registry.io/svc-18:staging-7743abc3

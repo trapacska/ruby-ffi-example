@@ -1,0 +1,4 @@
+environment: testing
+service: svc-14
+replicas: 2
+image: registry.io/svc-14:testing-91fbbaf4

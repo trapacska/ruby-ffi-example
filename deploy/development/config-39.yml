@@ -1,0 +1,4 @@
+environment: development
+service: svc-39
+replicas: 6
+image: registry.io/svc-39:development-fafab3a4

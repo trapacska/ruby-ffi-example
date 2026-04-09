@@ -1,0 +1,4 @@
+environment: staging
+service: svc-46
+replicas: 1
+image: registry.io/svc-46:staging-0639dd5a

@@ -1,0 +1,4 @@
+environment: testing
+service: svc-39
+replicas: 2
+image: registry.io/svc-39:testing-5e3febff

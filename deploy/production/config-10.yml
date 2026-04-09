@@ -1,0 +1,4 @@
+environment: production
+service: svc-10
+replicas: 5
+image: registry.io/svc-10:production-2f20555a

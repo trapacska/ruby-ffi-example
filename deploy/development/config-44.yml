@@ -1,0 +1,4 @@
+environment: development
+service: svc-44
+replicas: 3
+image: registry.io/svc-44:development-6552dc60

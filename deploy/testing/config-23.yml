@@ -1,0 +1,4 @@
+environment: testing
+service: svc-23
+replicas: 8
+image: registry.io/svc-23:testing-4eef3211

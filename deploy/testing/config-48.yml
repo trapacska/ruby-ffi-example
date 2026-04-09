@@ -1,0 +1,4 @@
+environment: testing
+service: svc-48
+replicas: 7
+image: registry.io/svc-48:testing-f96fccd8

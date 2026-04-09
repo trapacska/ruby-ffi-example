@@ -1,0 +1,4 @@
+environment: development
+service: svc-40
+replicas: 10
+image: registry.io/svc-40:development-bb14be03

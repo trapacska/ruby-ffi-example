@@ -1,0 +1,4 @@
+environment: staging
+service: svc-22
+replicas: 3
+image: registry.io/svc-22:staging-caff14c2

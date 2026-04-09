@@ -1,0 +1,4 @@
+environment: production
+service: svc-21
+replicas: 9
+image: registry.io/svc-21:production-0f9abe0e

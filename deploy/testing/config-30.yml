@@ -1,0 +1,4 @@
+environment: testing
+service: svc-30
+replicas: 1
+image: registry.io/svc-30:testing-737045b8

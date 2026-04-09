@@ -1,0 +1,4 @@
+environment: development
+service: svc-37
+replicas: 9
+image: registry.io/svc-37:development-fd573de1

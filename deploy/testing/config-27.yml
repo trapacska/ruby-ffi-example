@@ -1,0 +1,4 @@
+environment: testing
+service: svc-27
+replicas: 1
+image: registry.io/svc-27:testing-140c695a

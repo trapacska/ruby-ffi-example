@@ -1,0 +1,4 @@
+environment: development
+service: svc-28
+replicas: 7
+image: registry.io/svc-28:development-91d83c72

@@ -1,0 +1,4 @@
+environment: staging
+service: svc-12
+replicas: 2
+image: registry.io/svc-12:staging-1349847b

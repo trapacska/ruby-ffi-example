@@ -1,0 +1,4 @@
+environment: production
+service: svc-46
+replicas: 4
+image: registry.io/svc-46:production-da6e1f32

@@ -1,0 +1,4 @@
+environment: development
+service: svc-14
+replicas: 2
+image: registry.io/svc-14:development-9ee6090b

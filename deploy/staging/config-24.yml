@@ -1,0 +1,4 @@
+environment: staging
+service: svc-24
+replicas: 3
+image: registry.io/svc-24:staging-7f36e484

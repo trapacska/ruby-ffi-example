@@ -1,0 +1,4 @@
+environment: development
+service: svc-47
+replicas: 9
+image: registry.io/svc-47:development-40e3409a

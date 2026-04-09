@@ -1,0 +1,4 @@
+environment: staging
+service: svc-27
+replicas: 6
+image: registry.io/svc-27:staging-df39946f

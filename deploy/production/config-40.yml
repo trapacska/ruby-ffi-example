@@ -1,0 +1,4 @@
+environment: production
+service: svc-40
+replicas: 1
+image: registry.io/svc-40:production-84ec0d4e

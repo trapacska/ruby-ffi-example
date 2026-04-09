@@ -1,0 +1,4 @@
+environment: testing
+service: svc-31
+replicas: 7
+image: registry.io/svc-31:testing-04a745ce

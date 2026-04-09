@@ -1,0 +1,4 @@
+environment: testing
+service: svc-49
+replicas: 6
+image: registry.io/svc-49:testing-d4c0b0f4

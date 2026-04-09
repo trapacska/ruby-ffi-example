@@ -1,0 +1,4 @@
+environment: development
+service: svc-10
+replicas: 7
+image: registry.io/svc-10:development-66a2ca35

@@ -1,0 +1,12 @@
+workflows:
+  wf_L33_M95:
+    steps:
+    - script@1:
+        inputs:
+        - content: |
+            echo "Level 33 Module 95"
+            echo "Processing step 1"
+            echo "Processing step 2"
+    - deploy-to-bitrise-io@2:
+        inputs:
+        - deploy_path: /tmp/L33_M95

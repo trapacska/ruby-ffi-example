@@ -1,0 +1,4 @@
+environment: production
+service: svc-50
+replicas: 6
+image: registry.io/svc-50:production-eb54047d

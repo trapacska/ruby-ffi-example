@@ -1,0 +1,4 @@
+environment: production
+service: svc-35
+replicas: 10
+image: registry.io/svc-35:production-7ad32724

@@ -1,0 +1,4 @@
+environment: testing
+service: svc-47
+replicas: 10
+image: registry.io/svc-47:testing-962ce144

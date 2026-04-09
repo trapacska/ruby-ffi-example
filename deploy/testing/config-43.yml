@@ -1,0 +1,4 @@
+environment: testing
+service: svc-43
+replicas: 8
+image: registry.io/svc-43:testing-c7090f38

@@ -1,0 +1,4 @@
+environment: development
+service: svc-24
+replicas: 3
+image: registry.io/svc-24:development-9aaa8434

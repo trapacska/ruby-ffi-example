@@ -1,0 +1,4 @@
+environment: development
+service: svc-15
+replicas: 7
+image: registry.io/svc-15:development-55e2b4d3

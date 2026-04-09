@@ -1,0 +1,4 @@
+environment: staging
+service: svc-38
+replicas: 5
+image: registry.io/svc-38:staging-cfcd1a02

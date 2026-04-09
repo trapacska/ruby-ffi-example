@@ -1,0 +1,12 @@
+workflows:
+  wf_L36_M61:
+    steps:
+    - script@1:
+        inputs:
+        - content: |
+            echo "Level 36 Module 61"
+            echo "Processing step 1"
+            echo "Processing step 2"
+    - deploy-to-bitrise-io@2:
+        inputs:
+        - deploy_path: /tmp/L36_M61

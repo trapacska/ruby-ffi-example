@@ -1,0 +1,4 @@
+environment: testing
+service: svc-38
+replicas: 6
+image: registry.io/svc-38:testing-998b4818

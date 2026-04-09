@@ -1,0 +1,4 @@
+environment: development
+service: svc-25
+replicas: 7
+image: registry.io/svc-25:development-e45585c2

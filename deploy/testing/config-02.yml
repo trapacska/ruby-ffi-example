@@ -1,0 +1,4 @@
+environment: testing
+service: svc-2
+replicas: 3
+image: registry.io/svc-2:testing-3b36628f

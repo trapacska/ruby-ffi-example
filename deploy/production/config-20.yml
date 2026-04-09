@@ -1,0 +1,4 @@
+environment: production
+service: svc-20
+replicas: 8
+image: registry.io/svc-20:production-39750e93

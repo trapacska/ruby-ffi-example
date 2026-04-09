@@ -1,0 +1,4 @@
+environment: development
+service: svc-38
+replicas: 1
+image: registry.io/svc-38:development-202e069e

@@ -1,0 +1,4 @@
+environment: testing
+service: svc-26
+replicas: 6
+image: registry.io/svc-26:testing-60b39523

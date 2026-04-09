@@ -1,0 +1,12 @@
+workflows:
+  wf_L29_M53:
+    steps:
+    - script@1:
+        inputs:
+        - content: |
+            echo "Level 29 Module 53"
+            echo "Processing step 1"
+            echo "Processing step 2"
+    - deploy-to-bitrise-io@2:
+        inputs:
+        - deploy_path: /tmp/L29_M53

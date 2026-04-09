@@ -1,0 +1,4 @@
+environment: development
+service: svc-12
+replicas: 4
+image: registry.io/svc-12:development-581ea683

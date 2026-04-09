@@ -1,0 +1,4 @@
+environment: development
+service: svc-32
+replicas: 9
+image: registry.io/svc-32:development-add0456f

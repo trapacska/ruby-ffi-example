@@ -1,0 +1,4 @@
+environment: development
+service: svc-29
+replicas: 6
+image: registry.io/svc-29:development-a5eeb7ab

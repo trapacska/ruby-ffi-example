@@ -1,0 +1,4 @@
+environment: staging
+service: svc-43
+replicas: 8
+image: registry.io/svc-43:staging-708cf249

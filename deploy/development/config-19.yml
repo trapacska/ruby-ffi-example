@@ -1,0 +1,4 @@
+environment: development
+service: svc-19
+replicas: 8
+image: registry.io/svc-19:development-2cda614e

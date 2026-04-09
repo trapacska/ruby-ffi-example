@@ -1,0 +1,4 @@
+environment: staging
+service: svc-8
+replicas: 6
+image: registry.io/svc-8:staging-02ccf688

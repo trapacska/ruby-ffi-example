@@ -1,0 +1,4 @@
+environment: testing
+service: svc-25
+replicas: 4
+image: registry.io/svc-25:testing-d2e07260

@@ -1,0 +1,4 @@
+environment: testing
+service: svc-44
+replicas: 5
+image: registry.io/svc-44:testing-0ed39c20

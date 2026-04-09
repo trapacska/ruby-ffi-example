@@ -1,0 +1,4 @@
+environment: development
+service: svc-17
+replicas: 3
+image: registry.io/svc-17:development-b17e808d

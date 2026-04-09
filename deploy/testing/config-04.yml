@@ -1,0 +1,4 @@
+environment: testing
+service: svc-4
+replicas: 8
+image: registry.io/svc-4:testing-9577af52

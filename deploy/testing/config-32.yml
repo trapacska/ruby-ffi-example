@@ -1,0 +1,4 @@
+environment: testing
+service: svc-32
+replicas: 9
+image: registry.io/svc-32:testing-37414ca1

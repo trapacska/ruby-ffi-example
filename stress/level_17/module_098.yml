@@ -1,0 +1,12 @@
+workflows:
+  wf_L17_M98:
+    steps:
+    - script@1:
+        inputs:
+        - content: |
+            echo "Level 17 Module 98"
+            echo "Processing step 1"
+            echo "Processing step 2"
+    - deploy-to-bitrise-io@2:
+        inputs:
+        - deploy_path: /tmp/L17_M98

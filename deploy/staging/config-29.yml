@@ -1,0 +1,4 @@
+environment: staging
+service: svc-29
+replicas: 8
+image: registry.io/svc-29:staging-4b559ce8

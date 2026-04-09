@@ -1,0 +1,4 @@
+environment: testing
+service: svc-6
+replicas: 7
+image: registry.io/svc-6:testing-1205d182

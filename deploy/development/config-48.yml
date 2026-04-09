@@ -1,0 +1,4 @@
+environment: development
+service: svc-48
+replicas: 1
+image: registry.io/svc-48:development-4abde628

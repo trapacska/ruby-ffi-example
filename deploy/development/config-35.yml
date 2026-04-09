@@ -1,0 +1,4 @@
+environment: development
+service: svc-35
+replicas: 5
+image: registry.io/svc-35:development-f3ab3e2a

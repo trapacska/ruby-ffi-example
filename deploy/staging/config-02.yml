@@ -1,0 +1,4 @@
+environment: staging
+service: svc-2
+replicas: 1
+image: registry.io/svc-2:staging-ccf8a933

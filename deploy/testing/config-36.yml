@@ -1,0 +1,4 @@
+environment: testing
+service: svc-36
+replicas: 10
+image: registry.io/svc-36:testing-e50573ec

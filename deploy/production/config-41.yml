@@ -1,0 +1,4 @@
+environment: production
+service: svc-41
+replicas: 3
+image: registry.io/svc-41:production-de1f9483

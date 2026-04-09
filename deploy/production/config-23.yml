@@ -1,0 +1,4 @@
+environment: production
+service: svc-23
+replicas: 9
+image: registry.io/svc-23:production-d1406e24

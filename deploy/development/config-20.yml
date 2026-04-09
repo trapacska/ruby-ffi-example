@@ -1,0 +1,4 @@
+environment: development
+service: svc-20
+replicas: 4
+image: registry.io/svc-20:development-0af22b08

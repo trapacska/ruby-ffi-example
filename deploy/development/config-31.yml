@@ -1,0 +1,4 @@
+environment: development
+service: svc-31
+replicas: 1
+image: registry.io/svc-31:development-7f9cc904

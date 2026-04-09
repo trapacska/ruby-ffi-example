@@ -1,0 +1,4 @@
+environment: production
+service: svc-47
+replicas: 8
+image: registry.io/svc-47:production-6960973c

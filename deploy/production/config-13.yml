@@ -1,0 +1,4 @@
+environment: production
+service: svc-13
+replicas: 5
+image: registry.io/svc-13:production-46ef18bb

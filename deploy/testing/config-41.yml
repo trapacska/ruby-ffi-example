@@ -1,0 +1,4 @@
+environment: testing
+service: svc-41
+replicas: 10
+image: registry.io/svc-41:testing-74efaa49

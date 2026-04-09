@@ -1,0 +1,4 @@
+environment: staging
+service: svc-33
+replicas: 7
+image: registry.io/svc-33:staging-8e422f64

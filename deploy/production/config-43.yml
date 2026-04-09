@@ -1,0 +1,4 @@
+environment: production
+service: svc-43
+replicas: 8
+image: registry.io/svc-43:production-d43138d4

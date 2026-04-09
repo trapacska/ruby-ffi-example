@@ -1,0 +1,4 @@
+environment: testing
+service: svc-50
+replicas: 7
+image: registry.io/svc-50:testing-b50114da

@@ -1,7 +1,7 @@
 ---
 format_version: '13'
 include:
-  - path: stress/dir_01/chain.yml
+  - path: stress/level_01/chain.yml
 workflows:
   root:
     steps:

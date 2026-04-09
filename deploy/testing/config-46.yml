@@ -1,0 +1,4 @@
+environment: testing
+service: svc-46
+replicas: 8
+image: registry.io/svc-46:testing-a8ea15b2

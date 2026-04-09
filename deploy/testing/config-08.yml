@@ -1,0 +1,4 @@
+environment: testing
+service: svc-8
+replicas: 1
+image: registry.io/svc-8:testing-0e61e636

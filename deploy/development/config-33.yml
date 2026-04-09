@@ -1,0 +1,4 @@
+environment: development
+service: svc-33
+replicas: 3
+image: registry.io/svc-33:development-2eda61e3

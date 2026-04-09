@@ -1,0 +1,4 @@
+environment: testing
+service: svc-35
+replicas: 5
+image: registry.io/svc-35:testing-deacd2dd

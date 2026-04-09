@@ -1,0 +1,4 @@
+environment: development
+service: svc-23
+replicas: 6
+image: registry.io/svc-23:development-ddde2137

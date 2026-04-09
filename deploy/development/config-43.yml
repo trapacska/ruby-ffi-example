@@ -1,0 +1,4 @@
+environment: development
+service: svc-43
+replicas: 2
+image: registry.io/svc-43:development-f817c8b5

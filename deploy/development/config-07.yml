@@ -1,0 +1,4 @@
+environment: development
+service: svc-7
+replicas: 9
+image: registry.io/svc-7:development-97fa8f57

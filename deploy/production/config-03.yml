@@ -1,0 +1,4 @@
+environment: production
+service: svc-3
+replicas: 2
+image: registry.io/svc-3:production-2045ba1c

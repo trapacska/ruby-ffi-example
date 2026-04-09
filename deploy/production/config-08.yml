@@ -1,0 +1,4 @@
+environment: production
+service: svc-8
+replicas: 8
+image: registry.io/svc-8:production-3d008fac
