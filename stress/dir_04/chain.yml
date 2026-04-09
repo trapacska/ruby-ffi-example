@@ -2,6 +2,63 @@ include:
   - path: stress/dir_04/leaf_001.yml
   - path: stress/dir_04/leaf_002.yml
   - path: stress/dir_04/leaf_003.yml
+  - path: stress/dir_04/leaf_004.yml
+  - path: stress/dir_04/leaf_005.yml
+  - path: stress/dir_04/leaf_006.yml
+  - path: stress/dir_04/leaf_007.yml
+  - path: stress/dir_04/leaf_008.yml
+  - path: stress/dir_04/leaf_009.yml
+  - path: stress/dir_04/leaf_010.yml
+  - path: stress/dir_04/leaf_011.yml
+  - path: stress/dir_04/leaf_012.yml
+  - path: stress/dir_04/leaf_013.yml
+  - path: stress/dir_04/leaf_014.yml
+  - path: stress/dir_04/leaf_015.yml
+  - path: stress/dir_04/leaf_016.yml
+  - path: stress/dir_04/leaf_017.yml
+  - path: stress/dir_04/leaf_018.yml
+  - path: stress/dir_04/leaf_019.yml
+  - path: stress/dir_04/leaf_020.yml
+  - path: stress/dir_04/leaf_021.yml
+  - path: stress/dir_04/leaf_022.yml
+  - path: stress/dir_04/leaf_023.yml
+  - path: stress/dir_04/leaf_024.yml
+  - path: stress/dir_04/leaf_025.yml
+  - path: stress/dir_04/leaf_026.yml
+  - path: stress/dir_04/leaf_027.yml
+  - path: stress/dir_04/leaf_028.yml
+  - path: stress/dir_04/leaf_029.yml
+  - path: stress/dir_04/leaf_030.yml
+  - path: stress/dir_04/leaf_031.yml
+  - path: stress/dir_04/leaf_032.yml
+  - path: stress/dir_04/leaf_033.yml
+  - path: stress/dir_04/leaf_034.yml
+  - path: stress/dir_04/leaf_035.yml
+  - path: stress/dir_04/leaf_036.yml
+  - path: stress/dir_04/leaf_037.yml
+  - path: stress/dir_04/leaf_038.yml
+  - path: stress/dir_04/leaf_039.yml
+  - path: stress/dir_04/leaf_040.yml
+  - path: stress/dir_04/leaf_041.yml
+  - path: stress/dir_04/leaf_042.yml
+  - path: stress/dir_04/leaf_043.yml
+  - path: stress/dir_04/leaf_044.yml
+  - path: stress/dir_04/leaf_045.yml
+  - path: stress/dir_04/leaf_046.yml
+  - path: stress/dir_04/leaf_047.yml
+  - path: stress/dir_04/leaf_048.yml
+  - path: stress/dir_04/leaf_049.yml
+  - path: stress/dir_04/leaf_050.yml
+  - path: stress/dir_04/leaf_051.yml
+  - path: stress/dir_04/leaf_052.yml
+  - path: stress/dir_04/leaf_053.yml
+  - path: stress/dir_04/leaf_054.yml
+  - path: stress/dir_04/leaf_055.yml
+  - path: stress/dir_04/leaf_056.yml
+  - path: stress/dir_04/leaf_057.yml
+  - path: stress/dir_04/leaf_058.yml
+  - path: stress/dir_04/leaf_059.yml
+  - path: stress/dir_04/leaf_060.yml
   - path: stress/dir_05/chain.yml
 workflows:
   chain_4:

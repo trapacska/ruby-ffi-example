@@ -2,35 +2,6 @@
 format_version: '13'
 include:
   - path: stress/dir_01/chain.yml
-  - path: stress/dir_02/leaf_001.yml
-  - path: stress/dir_03/leaf_001.yml
-  - path: stress/dir_04/leaf_001.yml
-  - path: stress/dir_05/leaf_001.yml
-  - path: stress/dir_06/leaf_001.yml
-  - path: stress/dir_07/leaf_001.yml
-  - path: stress/dir_08/leaf_001.yml
-  - path: stress/dir_09/leaf_001.yml
-  - path: stress/dir_10/leaf_001.yml
-  - path: stress/dir_11/leaf_001.yml
-  - path: stress/dir_12/leaf_001.yml
-  - path: stress/dir_13/leaf_001.yml
-  - path: stress/dir_14/leaf_001.yml
-  - path: stress/dir_15/leaf_001.yml
-  - path: stress/dir_16/leaf_001.yml
-  - path: stress/dir_17/leaf_001.yml
-  - path: stress/dir_18/leaf_001.yml
-  - path: stress/dir_19/leaf_001.yml
-  - path: stress/dir_20/leaf_001.yml
-  - path: stress/dir_21/leaf_001.yml
-  - path: stress/dir_22/leaf_001.yml
-  - path: stress/dir_23/leaf_001.yml
-  - path: stress/dir_24/leaf_001.yml
-  - path: stress/dir_25/leaf_001.yml
-  - path: stress/dir_26/leaf_001.yml
-  - path: stress/dir_27/leaf_001.yml
-  - path: stress/dir_28/leaf_001.yml
-  - path: stress/dir_29/leaf_001.yml
-  - path: stress/dir_30/leaf_001.yml
 workflows:
   root:
     steps:

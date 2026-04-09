@@ -1,5 +1,5 @@
 workflows:
-  wf_dir_16_leaf_44:
+  wf_16_44:
     steps:
     - script@1:
         inputs:
