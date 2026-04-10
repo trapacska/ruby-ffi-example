@@ -1,0 +1,10 @@
+format_version: "13"
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+include:
+  - path: level_01/chain.yml
+workflows:
+  test:
+    steps:
+    - script:
+        inputs:
+        - content: echo "Hello"
